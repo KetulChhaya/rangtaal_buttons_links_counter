@@ -1,0 +1,57 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.counter-box {
+    margin: 0;
+    padding: 0;
+    background-image: url('back_img.jpeg');
+    opacity: 0.9;
+    color: #ffffff;
+}
+.counter {
+    padding: 50px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.counter-icon {
+    background-color: white;
+    border-radius: 10px;
+    width: 70px;
+    position: relative;
+    left: 24px;
+  }
+.plus-icon1 {
+    position: relative;
+    top: 83px;
+    left: 8px;    
+}
+.plus-icon2 {
+    position: relative;
+    top: 83px;
+    left: 17px;    
+}
+.plus-icon3 {
+    width: 60px;
+    position: relative;
+    top: 83px;
+    left: 30px;   
+}
+.counter-icon-3 {
+    left: 42px;
+}
+.count-title { 
+    font-size: 40px; 
+    font-weight: bolder;  
+    margin-top: 10px; 
+    margin-bottom: 0; 
+    text-align: center; 
+}
+.count-text { 
+    font-size: 30px; 
+    font-weight: bolder;  
+    margin-bottom: 0; 
+    text-align: center;
+    margin-right: -10px; 
+}

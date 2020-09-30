@@ -1,0 +1,86 @@
+body {
+    margin: 1%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Links Button Style */
+.btn-link {
+    color: #000000;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn-link:hover, .btn-link:focus, .btn-link:active {
+    color: #ffffff;
+    background: #d11bb3;
+    background: -moz-linear-gradient(to bottom right, #e259a3, #f75288);
+	background: -webkit-linear-gradient(to bottom right, #e259a3, #f75288);
+    background: linear-gradient(to bottom right, #e259a3, #f75288);
+    text-decoration: none;  
+}
+.btn-link:focus {
+    box-shadow: 0 0 0 0.2rem rgba(218, 43, 145, 0.25);
+}
+
+/* Normal Button Style */
+.btn-normal {
+    background:#d11bb3;
+    background: -moz-linear-gradient(to bottom right, #e259a3, #f75288);
+	background: -webkit-linear-gradient(to bottom right, #e259a3, #f75288);
+    background: linear-gradient(to bottom right, #e259a3, #f75288);
+    color: #ffffff;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.btn-normal:hover, .btn-normal:focus {
+    background-color: #ffffff;
+    background: -moz-linear-gradient(#dddddd 0%, #fffffa 100%);
+    background: -webkit-linear-gradient(#dddddd 0%, #fffffa 100%);
+    background: linear-gradient(#dddddd 0%, #ffffff 100%);
+    color: #e259a3;
+}
+.btn-normal:focus {
+    box-shadow: 0 0 0 0.2rem rgba(218, 43, 145, 0.25);
+}
+
+/* Semi-Transparent Button style */
+.btn-semi {
+    border-radius: 5px;
+    background-color: #7c7c7c;
+    color: #ffffff;
+    opacity: 0.7;
+}
+.btn-semi:hover, .btn-semi:focus {
+    opacity: 1;
+    color: #ffffff;  
+}
+.btn-semi:focus {
+    box-shadow: 0 0 0 0.2rem rgba(36, 36, 36, 0.25);
+}
+
+/* Live (Danger) Button Style */
+.btn-danger{
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 80px;
+    border-radius: 8px;
+}
+
+/* Time Button Style */
+.btn-time {
+    text-transform: uppercase;
+    background: #4b4b4b;
+    color: #ffffff;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+.btn-time:hover, .btn-time:focus {
+    opacity: 1;
+    color: #ffffff;
+}
+.btn-time:focus {
+    box-shadow: 0 0 0 0.2rem rgba(36, 36, 36, 0.25);
+}
+/* End of s&c_buttons SS */
